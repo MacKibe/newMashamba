@@ -1,4 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
+img {
+  max-width: 20%;
+}
+.imagesSection {
+  display: flex;
+}
+.documentSection {
+  background-color: rgb(106, 140, 170);
+  margin: 2% 0;
+  text-align: center;
+  padding: 2%;
 }

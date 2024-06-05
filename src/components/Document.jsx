@@ -1,10 +1,9 @@
 import ImagesList from "./ImagesList";
-const Document = ({ doc }) => {
-  const { id, images, transcriptions } = doc;
-  //
-  // Have 3 components to display the title pages and transcriptions.
+
+const Document = ({ document }) => {
+  const { id, images, transcriptions } = document;
   return (
-    <div>
+    <div className="documentSection">
       <h1>{id}</h1>
       <ImagesList images={images} />
       <div className="transcription">

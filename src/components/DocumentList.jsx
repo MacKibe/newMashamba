@@ -1,12 +1,14 @@
 import Document from "./Document";
-import docs from "../data"
+import docs from "../data";
+
+console.log(docs);
 const DocumentList = () => {
   return (
     <>
       {/* List the documents for our application */}
-      {docs.map((doc, index) => (
-        <Document key={index} document={doc} />
-      ))}
+      {docs.map((doc, index) => {
+        return <Document key={index} document={doc} />;
+      })}
     </>
   );
 };
