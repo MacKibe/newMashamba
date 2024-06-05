@@ -1,12 +1,8 @@
-import Title from "./components/Title"
-import Images from "./components/Images.jsx"
-import Transcription from "./components/Transcription"
+import DocumentList from "./components/DocumentList";
 function App() {
   return (
     <>
-      <Title />
-      <Images />
-      <Transcription />
+      <DocumentList />
     </>
   );
 }
