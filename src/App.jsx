@@ -1,8 +1,8 @@
-import DocumentList from "./components/DocumentList";
+import Documents from "./components/Documents";
 function App() {
   return (
     <>
-      <DocumentList />
+      <Documents />
     </>
   );
 }

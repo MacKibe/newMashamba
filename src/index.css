@@ -1,12 +1,13 @@
 img {
-  max-width: 20%;
+  max-width: 100%;
+  margin: 2%;
 }
 .imagesSection {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .documentSection {
   background-color: rgb(106, 140, 170);
   margin: 2% 0;
-  text-align: center;
   padding: 2%;
 }

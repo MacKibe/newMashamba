@@ -1,7 +1,14 @@
+import { useState } from "react";
 import ImagesList from "./ImagesList";
 
 const Document = ({ document }) => {
-  const { id, images, transcriptions } = document;
+  const {count, setCount} = useState(0)
+
+
+  const { id, images, transcriptions } = document[count];
+
+  console.log(id);
+
   return (
     <div className="documentSection">
       <h1>{id}</h1>
