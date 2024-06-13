@@ -1,9 +1,14 @@
-import Documents from "./components/Documents";
+// import IdList from "./components/IdList";
+import Document from "./components/Document";
+import DocumentProvider from "./context/DocumentsContext"
 function App() {
   return (
-    <>
-      <Documents />
-    </>
+    <DocumentProvider>
+      {/* List  all document ids */}
+      {/* <IdList/> */}
+      {/* Display the document. */}
+      <Document/>
+    </DocumentProvider>
   );
 }
 

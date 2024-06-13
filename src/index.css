@@ -1,11 +1,18 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
 img {
-  max-width: 100%;
+  max-width: 70%;
   margin: 2%;
 }
+
 .imagesSection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .documentSection {
   background-color: rgb(106, 140, 170);
   margin: 2% 0;
